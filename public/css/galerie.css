@@ -1,0 +1,60 @@
+.titreGal
+{
+    margin-top: 50px;
+    text-align: center;
+    /*font-family: 'JustSignature';*/
+    
+
+}
+.route
+{
+    text-align: center;
+    font-family: 'JustSignature';
+    margin-top: 30px;
+}
+
+.zoom 
+{
+
+    transition: transform 1s; /* Animation */
+    /*    margin: 0 auto;*/
+}
+
+.zoom:hover 
+{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+h2
+{
+    text-align: center;
+}
+.img_1
+{
+    width: 300px;
+    max-height:200px;
+    display: inline-block;
+    margin-left: 45px; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #CCC;
+    box-shadow: 0px 0px 17px #BBB;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+@font-face
+{
+    font-family: 'JustSignature';
+    src: url('JustSignature.ttf') format('truetype') ;
+}
+
+
+@media screen and (max-width: 767px) {
+    #myFooter 
+    {
+        text-align: center;
+    }

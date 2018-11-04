@@ -1,0 +1,128 @@
+@font-face 
+{
+  font-family: 'JustSignature';
+  src: url('JustSignature.ttf') format('truetype') ;
+}
+
+.titreHeader
+{
+  /*margin-left: 100px;*/
+  margin-top: 80px;
+  margin-left: 50px;
+  padding-bottom: 100px;
+  font-family: 'JustSignature';
+  font-size: 45px;
+}
+
+#menu_principal a 
+{
+  text-decoration:none
+}
+
+/*navbar*/
+
+
+body
+{
+  background: url('img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+
+
+nav
+{
+  width: 100%;
+  background: #520000;
+  line-height: 80px;
+  /*margin-left: 20px;*/
+
+}
+
+#menu_principal ul 
+{
+  display: flex;
+  padding: 0;
+}
+
+
+
+#menu_principal li 
+{
+  flex-grow: 1;
+  align-items: stretch;
+  text-align: center;
+  list-style-type: none;
+  /*display: inline-block;*/
+  transition: 0.8s all;
+  border-right: 1px solid white ;
+  max-height: 90px;
+}
+
+
+
+
+/*pour faire la navbar responsiv*/
+
+@media screen and (max-width: 500px)
+{
+  #menu_principal ul {
+    flex-direction: column;
+  }
+  #menu_principal li 
+  {
+    border-bottom: 1px solid white ;
+  }
+}
+
+
+.accueil:hover
+{
+  background:url('img/melissa-askew-642461-unsplash.jpg');
+  background-size: 241px 80px;
+  background-repeat: no-repeat;
+}
+
+.activite:hover
+{
+  background:url('img/nadya-spetnitskaya-544606-unsplash.jpg');
+  background-size: 275px 80px;
+  background-repeat: no-repeat;
+}
+
+
+.reservation:hover
+{
+  background:url('img/jeshoots-com-462287-unsplash.jpg');
+  background-size: 275px 80px;
+  background-repeat: no-repeat;
+}
+
+.contact:hover
+{
+  background:url('img/quino-al-655671-unsplash.jpg');
+  background-size: 245px 80px;
+  background-repeat: no-repeat;
+}
+.galerie:hover
+{
+  background:url('img/noah-silliman-138030-unsplash.jpg');
+  background-size: 245px 80px;
+  background-repeat: no-repeat;
+}
+.livreDor:hover
+{
+  background:url('img/john-schnobrich-510629-unsplash.jpg');
+  background-size: 250px 80px;;
+  background-repeat: no-repeat;
+}
+
+nav ul li a 
+{
+  text-decoration: none;
+  color: white;
+}
+

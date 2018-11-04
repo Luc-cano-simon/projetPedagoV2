@@ -1,0 +1,158 @@
+body
+{
+  background-size: 130%;
+}
+/*#container
+{
+  border: ridge;
+  width: 640px;
+  height: 1000px;
+}*/
+
+
+#bouton
+{
+  /*border: ridge;
+  border-color: black;*/
+  height: 40px;
+  width: 110px;
+
+  color:black;
+}
+mark
+{
+  color: brown;
+}
+
+#condition
+{
+  margin-left: 30px;
+
+}
+
+#liste
+{
+  /*border: ridge;*/
+  
+
+  width: 100px;
+  height: 30px;
+}
+#date
+{
+  /*border:ridge;*/
+  
+}
+
+#image
+{
+  width: 80%;
+  height: 90%;
+}
+h1
+{
+  font-family: 'Dancing Script', cursive;
+}
+.adresse
+{
+ text-align: center;
+ margin-left: 30px;*/
+ display: block;
+ margin: auto;
+}
+
+html
+{
+  height: 100%;
+}
+@font-face 
+{
+ font-family: 'JustSignature';
+ src: url('JustSignature.ttf') format('truetype') ;
+}
+
+
+
+.adresse
+{
+
+  display: block;
+  margin: auto;
+}
+
+#container
+{
+background-image: url('img/images.jpeg');
+ background-repeat: no-repeat;
+ margin-left: 30%;
+ padding :0px ;
+ /*background-size: 50% 50%;*/
+ margin-top: -12%;
+}
+
+#align
+{
+  /*text-align: center;*/
+  margin-top: 20%;
+}
+
+#arrow
+{
+ /*text-align: center;*/
+}
+
+#condition
+{
+ font-family: 'Ubuntu Condensed', sans-serif;
+ font-size: 140%;
+}
+
+
+@media(max-width: 767px)
+{
+
+ h2
+ {
+  margin-top: 25%;
+}
+
+#container
+{
+  width :100% ;
+  height: 100%;
+  margin-left: 0%;
+  margin-top: 49%;  
+  background-image: url('img/images.jpeg');
+  font-style: oblique;
+  text-align: center;
+  /*margin-right: 50px;*/
+
+}
+#condition
+{
+  margin-left: 6%;
+  margin-top: 20%;
+}
+
+}
+
+
+.modal-backdrop {
+  opacity: 0.7;
+}
+#align
+{
+  text-align: center;
+  margin-left: -130%;
+  margin-bottom: -20px;
+}
+#titre
+{
+  margin-right: 25%;
+}
+#titr
+{
+  margin-right: -1%;
+}
+
+

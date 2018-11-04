@@ -1,0 +1,161 @@
+.imgG
+{
+    margin-top: 10px;
+
+}
+
+
+.imgD
+{
+    margin-bottom: 60px;
+    max-width: 300px;
+}
+       
+
+.jours
+{
+    text-align: center;
+    margin-bottom: 30px: 
+    /*border:1px solid white;*/
+}
+
+.adresse
+{
+    
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+#myFooter 
+{
+    background-color: #182c39;
+    color: white;
+    padding-top: 20px;
+}
+
+
+
+#map-container 
+{
+    height: 250px;
+    /*margin-top: 50px;*/
+    /*margin-bottom: 10px;*/
+    margin-left: 0px;
+}
+
+
+.map{
+    margin-left: 50px;
+}
+
+
+/*centralizer titre*/
+#myFooter .row 
+{
+    /*margin: 0 650px;*/
+}
+
+
+
+#myFooter .container 
+{
+    width: auto;
+    margin-right: 50px;
+    height: 50px;
+}
+
+
+
+#myFooter  ul 
+{
+    list-style-type: none;
+    /*padding-left: 0;*/
+    line-height: 1.7;
+}
+
+
+
+#myFooter h5 
+{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+#myFooter 
+{
+    color: #d2d1d1;
+    text-decoration: none;
+
+}
+
+
+/*#myFooter a:hover,
+#myFooter a:focus 
+{
+    text-decoration: none;
+    color: white;
+}*/
+
+
+@media screen and (max-width: 767px) 
+{
+    #myFooter 
+    {
+        text-align: center;
+    }
+    #myFooter .row 
+    {
+        margin: 0;
+    }
+}
+
+
+
+.content
+{
+ flex: 1 0 auto;
+ -webkit-flex: 1 0 auto;
+ min-height: 150px;
+}
+
+
+
+#myFooter
+{
+ flex: 0 0 auto;
+ -webkit-flex: 0 0 auto;
+}
+
+
+html
+{
+    height: 100%;
+}
+
+
+.container{
+    margin-left: 50px;
+}
+
+
+h2{
+    margin-right: 35px;
+}
+
+
+.col-sm-4{
+    padding-top: 30px;
+    /*margin-left: 20px;*/
+}
+
+
+.epi{
+    margin-left: 70px;
+    padding-top: 10px;
+}
