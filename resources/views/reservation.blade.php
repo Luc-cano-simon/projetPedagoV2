@@ -31,7 +31,7 @@
 
                     @csrf
 
-                    <label for="name" id="titre" > Nombre de personne</label>
+                    <label type="number" for="name" id="titre" > Nombre de personne</label>
                     <label for="nombres">Date de résérvation</label> 
 
                     <p>

@@ -29,7 +29,8 @@ class ContactController extends Controller
 			'imageFooterG' => $imageFooterG,
 			'imageFooterD' => $imageFooterD,
 
-		]); 	}
+		]); 	
+	}
 
 
     public function add(Request $r)
@@ -45,6 +46,10 @@ class ContactController extends Controller
 		if( ! $contact->save() )
 		{
 			return $contact->last_error;
+		}
+		else
+		{
+			return redirect('/contact');
 		}
 
 		// Sending a mail to the admin

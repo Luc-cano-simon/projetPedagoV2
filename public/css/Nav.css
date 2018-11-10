@@ -82,8 +82,9 @@ nav
 .accueil:hover
 {
   background:url('img/melissa-askew-642461-unsplash.jpg');
-  background-size: 241px 80px;
-  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+
 }
 
 .activite:hover

@@ -1,23 +1,9 @@
-body
-{
-  background-size: 130%;
-}
-/*#container
-{
-  border: ridge;
-  width: 640px;
-  height: 1000px;
-}*/
-
-
 #bouton
 {
-  /*border: ridge;
-  border-color: black;*/
   height: 40px;
   width: 110px;
-
   color:black;
+
 }
 mark
 {
@@ -32,31 +18,27 @@ mark
 
 #liste
 {
-  /*border: ridge;*/
-  
-
   width: 100px;
   height: 30px;
 }
-#date
-{
-  /*border:ridge;*/
-  
-}
+
 
 #image
 {
   width: 80%;
   height: 90%;
 }
+
 h1
 {
   font-family: 'Dancing Script', cursive;
 }
+
+
 .adresse
 {
  text-align: center;
- margin-left: 30px;*/
+ margin-left: 30px;
  display: block;
  margin: auto;
 }
@@ -73,22 +55,20 @@ html
 
 
 
-.adresse
+/*.adresse
 {
-
   display: block;
   margin: auto;
-}
+}*/
 
 #container
 {
 background-image: url('img/images.jpeg');
  background-repeat: no-repeat;
  margin-left: 30%;
- padding :0px ;
- /*background-size: 50% 50%;*/
  margin-top: -12%;
 }
+
 
 #align
 {
@@ -125,7 +105,7 @@ background-image: url('img/images.jpeg');
   background-image: url('img/images.jpeg');
   font-style: oblique;
   text-align: center;
-  /*margin-right: 50px;*/
+  margin-right: 50px;
 
 }
 #condition
@@ -137,7 +117,8 @@ background-image: url('img/images.jpeg');
 }
 
 
-.modal-backdrop {
+.modal-backdrop 
+{
   opacity: 0.7;
 }
 #align
@@ -146,13 +127,3 @@ background-image: url('img/images.jpeg');
   margin-left: -130%;
   margin-bottom: -20px;
 }
-#titre
-{
-  margin-right: 25%;
-}
-#titr
-{
-  margin-right: -1%;
-}
-
-
